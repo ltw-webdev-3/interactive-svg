@@ -16,25 +16,51 @@ html {
   box-sizing: inherit;
 
 }
+#left-eye {
+  transform: translate(0, 0);
+  transition: all .5s linear;
+}
 
-.left-ear:hover {
-  animation: spin 1s linear infinite;
+#right-eye {
+  transform: translate(0, 0);
+  transition: all .5s linear;
+}
+
+#bear:hover #left-eye {
+  transform: translate(0, -10px);
 
 }
 
-.right-ear:hover {
-  animation: spin 1s linear infinite;
+#bear:hover #right-eye {
+  transform: translate(0, 10px);
+  
+}
+#left-ear {
+  transform: translate(0, 0);
+  transition: all .5s linear;
+}
+
+#right-ear {
+  transform: translate(0, 0);
+  transition: all .5s linear;
+}
+
+#bear:hover #left-ear {
+  transform: translate(-10px, 15px);
 
 }
 
+#bear:hover #right-ear {
+  transform: translate(10px, 15px);
+}
 @keyframes spin {
 
   from {
-    transform: rotate(100deg) translate(0px, 100px);
+    transform: rotate(0deg);
   }
 
   to {
-    transform: rotate(100deg) translate(0px, 100px);
+    transform: rotate(360deg);
   }
 
 }
