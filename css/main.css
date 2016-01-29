@@ -27,12 +27,12 @@ html {
 }
 
 #bear:hover #left-eye {
-  transform: translate(0, -10px);
+  transform: translate(5px, -11px);
 
 }
 
 #bear:hover #right-eye {
-  transform: translate(0, 10px);
+  transform: translate(-2px, 10px);
   
 }
 #left-ear {
