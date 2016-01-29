@@ -20,13 +20,13 @@ html {
   width: 50%;
 }
 
-.bear:hover .ears {
+.bear:hover .ears{
   transform: translateY(-10px);
 }
 
 .ears {
   transform: translateY(0);
-  animation: ears 1000ms linear infinite alternate;
+  transition: all 1s linear;
 }
 
 @keyframes ears {
@@ -34,7 +34,7 @@ html {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(5px);
+    transform: translateY(-5px);
   }
 }
 
