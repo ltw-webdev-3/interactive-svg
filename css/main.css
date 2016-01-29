@@ -15,14 +15,3 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-
-.face {
-  fill: #673200;
-}
-
-.mouth {
-  fill: none;
-  stroke: #000;
-  stroke-width: 3px;
-  stroke-linecap: round;
-}
