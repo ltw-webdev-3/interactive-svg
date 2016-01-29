@@ -15,3 +15,34 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.left-ear {
+  transition: all .5s linear;
+}
+
+.right-ear {
+  transition: all .5s linear;
+}
+
+.bear:hover .left-ear {
+  transform: translate(0px, -10px);
+}
+
+.bear:hover .right-ear {
+  transform: translate(0px, -10px);
+}
+
+.eye {
+  animation: move 1s linear alternate infinite;
+}
+
+@keyframes move {
+
+  0% {
+    transform: translate(6px, 0px);
+  }
+
+  100% {
+    transition: translate)6px, 0px);
+  }
+}
