@@ -15,3 +15,12 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+#left-eye {
+  animation: slide 3s infinite linear;
+}
+
+@keyframes slide {
+  0% { transform: translate(0,0); }
+  100% { transform: translate(15px,0); }
+}
