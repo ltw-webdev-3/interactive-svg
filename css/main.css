@@ -19,3 +19,17 @@ html {
 .bear {
   width: 50%;
 }
+
+.ears {
+  transform: translateY(0);
+  animation: ears 2s ease infinite alternate;
+}
+
+@keyframes ears {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(15px);
+  }
+}
