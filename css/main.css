@@ -15,3 +15,64 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.bear {
+  width: 50%;
+}
+
+.bear:hover .ears {
+  transform: translateY(-10px);
+}
+
+.ears {
+  transform: translateY(0);
+  transition: all 1s linear;
+}
+
+@keyframes ears {
+
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
+.eyes {
+  transform: translateX(0);
+  animation: eyes 1500ms linear infinite alternate;
+}
+
+@keyframes eyes {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(10px);
+  }
+}
+
+.st0 {
+  fill: #673200;
+}
+
+.st1 {
+  fill: #ffaaca;
+}
+
+.st2 {
+  fill: #c65b00;
+}
+
+.st3 {
+  fill: none;
+  stroke: #000;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
