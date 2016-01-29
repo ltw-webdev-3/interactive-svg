@@ -17,10 +17,14 @@ html {
 }
 
 #left-eye {
-  animation: slide 3s infinite linear;
+  animation: slide 2s infinite linear;
 }
 
 @keyframes slide {
   0% { transform: translate(0,0); }
-  100% { transform: translate(15px,0); }
+  100% { transform: translate(12px,0); }
+}
+
+#right-eye {
+  animation: slide 2s infinite linear;
 }
