@@ -2,7 +2,7 @@
 summary: 'Make an embedded SVG graphic with animations & transitions.'
 time: '1 hour'
 deliverables: '1 HTML file, 1 CSS file'
-download: 'https://assets.learn-the-web.algonquindesign.ca/web-dev-3/interactive-svg-download.zip'
+download: 'https://assets.learntheweb.courses/web-dev-3/interactive-svg-download.zip'
 ---
 
 # Interactive SVG
@@ -11,8 +11,8 @@ download: 'https://assets.learn-the-web.algonquindesign.ca/web-dev-3/interactive
 
 - *Fork this repository.*
 - Export the downloaded Adobe Illustrator file (`bear.ai`) into an SVG—and clean it using [Spritebot](https://github.com/thomasjbradley/spritebot).
-  · [Illustrator to SVG exporting instructions](http://learn-the-web.algonquindesign.ca/topics/image-formats/#svg)
-  · [SVG cleaning instructions](http://learn-the-web.algonquindesign.ca/topics/advanced-svg/#cleaning-generated-svg)
+  · [Illustrator to SVG exporting instructions](https://learntheweb.courses/topics/image-formats/#svg)
+  · [SVG cleaning instructions](https://learntheweb.courses/topics/advanced-svg/#cleaning-generated-svg)
 - Embed the SVG code directly in the `index.html` file.
 - Add the interactivity (transitions & animations) to the SVG in the CSS file.
 - *Run it through Markbot and make sure it passes all the checks.*
